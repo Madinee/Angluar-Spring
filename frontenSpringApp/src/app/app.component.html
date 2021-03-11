@@ -1,0 +1,17 @@
+<nav class="navbar navbar-expend-sm bg-primary navbar-dark ">
+  <div class="navbar-nav">
+      <a routerLinkActive="active" routerLink="employees" class="nav-item nav-link">Employee List</a>
+      <a routerLinkActive="active" routerLink="create-employee" class="nav-item nav-link">Add Employee</a>
+  </div>
+</nav>
+<div class="container">
+  <div class="col-md">
+    <h1 class="text-center">{{title}}</h1>
+    <router-outlet></router-outlet>
+  </div>
+</div>
+<footer class="footer">
+<div class="container">
+  <span>All Rights Reserved 2020 @madine</span>
+</div>
+</footer>
